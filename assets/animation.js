@@ -1,4 +1,4 @@
-const text = ["websites","mobile apps","pancakes"];
+const text = ["value.","design.","pancakes."];
 let count = 0;
 let index = 0;
 let currentText = "";
@@ -21,5 +21,5 @@ if(letter.length === currentText.length) {
     index=0;
 }
 console.log(letter)
-setTimeout(type, 500);
+setTimeout(type, 400);
 }());

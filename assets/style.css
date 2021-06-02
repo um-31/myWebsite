@@ -7,8 +7,11 @@
 .divPurple {
   background-color:#240b36;
 }
-.padding5to1{
-  padding: 5% 1%;
+.padding5to0{
+  padding: 5% 0%;
+}
+.paddingTop5{
+  padding-top: 5%;
 }
 .paddingLeft3{
   padding-left: 3%;
@@ -18,16 +21,9 @@
 }
 
 #profilePicture {
-  /* border: 2px solid #d8d8d8; */
-  
   width: 100%;
   height: auto;
   justify-content: center;
-  /* margin: 5%; */
-  /* padding: 15px; */
-  /* -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57); */
-  /* -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57); */
-  /* box-shadow: 2px 15px -12px rgba(0, 0, 0, 0.57); */
 }
 
 .btnPurple{
@@ -65,6 +61,7 @@
 
 }
 .typing{
+  color: white;
   position: relative;
   margin-left: 10px;
 }
@@ -74,8 +71,8 @@
   right: -5px;
   width: 1%;
   height: 90%;
-  border-right: 2px solid black;
-  animation: blink 0.5s infinite ease;
+  border-right: 2px solid white;
+  animation: blink 0.4s infinite ease;
 }
 
 @keyframes blink{
@@ -97,4 +94,43 @@ a:hover {
 }
 a:visited {
   color:white;
+}
+
+.red{
+  padding: 10% 0%;
+  color: #c31432;
+  size: 50px;
+}
+
+.red:hover{
+  color: #240b36;
+}
+.purple{
+  color:#240b36;
+}
+
+.purple:hover{
+  color:#c31432;
+}
+
+.content__title {
+	font-size: 8vw;
+
+}
+.content__title--center {
+  margin: auto;
+  text-align: center;
+}
+#rfx4
+{
+  background: -webkit-linear-gradient(left,#FFB900,#FF8C00,#F7630C,#E74856,#E81123,#0078D7,#0063B1);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ color: #303F9F;
+}
+.content__title__inner {
+	flex: none;
+	display: inline-block;
+	white-space: wrap;
+	position: relative;
 }
