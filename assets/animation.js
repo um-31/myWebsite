@@ -20,6 +20,5 @@ if(letter.length === currentText.length) {
     count++;
     index=0;
 }
-console.log(letter)
 setTimeout(type, 400);
 }());

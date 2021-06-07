@@ -134,3 +134,6 @@ a:visited {
 	white-space: wrap;
 	position: relative;
 }
+.infoDivSize {
+  height: 400px;
+}

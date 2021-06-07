@@ -17,7 +17,33 @@ const app = Vue.createApp({
                 "Successfully set up online sales flow for the company on e-commerce platforms like Flipkart and Amazon, which escalated profits by 20% within the first quarter.",
                 "Achieved customer growth up to 10% in 6 months by enhancing the quality of customer service across the store.",
                 "Facilitate company with countrywide delivery in less than a quarter by partnering with E-Com delivery, resulting in an increment of 5% in company’s yearly turnover.",
-                "Meliorate warehouse management system using software tools that helped the company save more than 50% resources during peak months."]
+                "Meliorate warehouse management system using software tools that helped the company save more than 50% resources during peak months."],
+            icons: ["fa-js","fa-php","fa-python","fa-java","fa-swift","fa-react"],
+            icons1: ["js","php","python","java","swift","react","vuejs","angular","node-js","bootstrap","laravel","android"],
+            fa: "fa-"
         }
+    },
+    computed: {
+        iconList1: function() {
+            var newArr = []
+            for(let i = 0; i< this.icons1.length; i++){
+                newArr[i] = this.icons1[i]
+                if(i == 5) {
+                    break
+                }
+            }
+            return newArr
+        },
+        iconList2: function() {
+            var newArr1 = []
+            for(let i = (this.icons1.length/2); i <= this.icons1.length; i++){
+                newArr1[i] = this.icons1[i]
+                if(i == this.icons1.length) {
+                    break
+                }
+            }
+            return newArr1
+        }
+        
     }
 })
