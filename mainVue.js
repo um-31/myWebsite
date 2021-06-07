@@ -26,9 +26,9 @@ const app = Vue.createApp({
     computed: {
         iconList1: function() {
             var newArr = []
-            for(let i = 0; i< this.icons1.length; i++){
+            for(let i = 0; i< this.icons1.length/2; i++){
                 newArr[i] = this.icons1[i]
-                if(i == 5) {
+                if(i == (this.icons1.length/2)-1) {
                     break
                 }
             }
@@ -37,7 +37,7 @@ const app = Vue.createApp({
         iconList2: function() {
             var newArr1 = []
             for(let i = (this.icons1.length/2); i <= this.icons1.length; i++){
-                newArr1[i] = this.icons1[i]
+                newArr1[i-(this.icons1.length/2)] = this.icons1[i]
                 if(i == this.icons1.length) {
                     break
                 }
