@@ -41,6 +41,18 @@
   padding: 12px 16px 12px 16px;
 
 }
+.btnRed{
+  color: white;
+  text-decoration: none;
+  background-color: #c31432;
+  padding: 12px 16px 12px 16px;
+}
+.btnRed:hover{
+  color: white;
+  background-color: #240b36;
+  text-decoration: none;
+  padding: 12px 16px 12px 16px;  
+}
 
 .description {
   color: white;
@@ -98,13 +110,13 @@ a:visited {
 
 .red{
   padding: 10% 0%;
-  color: #c31432;
-  size: 50px;
+  color:#c31432;
 }
 
 .red:hover{
-  color: #240b36;
+  color:#240b36;
 }
+
 .purple{
   color:#240b36;
 }

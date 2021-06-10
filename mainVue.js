@@ -36,7 +36,7 @@ const app = Vue.createApp({
         },
         iconList2: function() {
             var newArr1 = []
-            for(let i = (this.icons1.length/2); i <= this.icons1.length; i++){
+            for(let i = (this.icons1.length/2); i < this.icons1.length; i++){
                 newArr1[i-(this.icons1.length/2)] = this.icons1[i]
                 if(i == this.icons1.length) {
                     break
